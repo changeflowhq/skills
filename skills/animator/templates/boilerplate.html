@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #f8fafc;
+  }
+
+  /* ========================================
+     YOUR CSS ANIMATIONS GO HERE
+     Use standard @keyframes - the recorder
+     will pause and step them automatically.
+     ======================================== */
+
+  .example {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: 700;
+    animation: fadeSlideIn 2s ease-out forwards;
+  }
+
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -30%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- YOUR CONTENT HERE -->
+  <div class="example">Hello, Animator</div>
+
+<script>
+  // ========================================
+  // ANIMATION CONFIG (required)
+  // ========================================
+  window.ANIMATION = {
+    fps: 30,
+    totalFrames: 90, // 3 seconds at 30fps
+  };
+
+  // ========================================
+  // OPTIONAL: JS-driven animation
+  // Called per frame by the recorder.
+  // Use for anything CSS can't do.
+  // ========================================
+  // window.renderFrame = function(frame, totalFrames) {
+  //   const progress = frame / totalFrames;
+  //   // manipulate DOM based on progress (0 to 1)
+  // };
+</script>
+</body>
+</html>
