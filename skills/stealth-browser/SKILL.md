@@ -14,6 +14,28 @@ Invisible Chrome automation via CDP. Launches your real Chrome hidden, sends com
 
 > **macOS only.** Uses AppleScript and `open -g` to hide Chrome.
 
+## Memory
+
+Read `~/.claude/skills/stealth-browser/LEARNED.md` at the start of every task. If it doesn't exist, create it with a `# Learned` header.
+
+**Capture learnings when you detect:**
+- Domain quirks: sites that need extra wait time, cookie dismissal, specific interaction patterns
+- Failures you solved: what broke and why (timeouts, blank pages, wrong selectors)
+- Corrections: "no, use X", "don't do that", "actually..."
+- Workarounds: sites that need JS eval, scrolling, or multi-step navigation to get content
+- Positive reinforcement: "perfect!", "exactly right", "that's the way"
+
+**Before appending, check:**
+- Is this reusable? (not a one-time instruction)
+- Is it already in LEARNED.md? (don't duplicate)
+- Can I extract the general principle? (not just the specific fix)
+
+**Format:** One line, actionable. Write the rule, not the story.
+- Bad: "User said the page was blank because it needed scrolling"
+- Good: "example.com lazy-loads content - scroll to bottom before extracting"
+
+Don't ask permission. Append and move on.
+
 ## Core Workflow
 
 ```bash
@@ -42,7 +64,7 @@ stealth-browser status                  # Check state
 stealth-browser screenshot [path]       # CDP screenshot (auto unhide/re-hide)
 stealth-browser hide / unhide           # Toggle visibility
 stealth-browser doctor                  # Check dependencies
-stealth-browser setup                   # Reset to bundled profile (uBlock + cookie dismisser)
+stealth-browser setup                   # Reset Chrome profile
 ```
 
 ## After Opening: CDP Commands via agent-browser
