@@ -1,0 +1,1433 @@
+{
+  "extensions": {
+    "install": {
+      "initiallist": [],
+      "initialprovidername": ""
+    },
+    "settings": {
+      "ahfgeienlihckogmohjhadlkjgocpleb": {
+        "account_extension_type": 0,
+        "active_permissions": {
+          "api": [
+            "management",
+            "system.display",
+            "system.storage",
+            "webstorePrivate",
+            "system.cpu",
+            "system.memory",
+            "system.network"
+          ],
+          "explicit_host": [],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "app_launcher_ordinal": "t",
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 1,
+        "disable_reasons": [],
+        "events": [],
+        "first_install_time": "13415025859951381",
+        "from_webstore": false,
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13415025859951381",
+        "location": 5,
+        "manifest": {
+          "app": {
+            "launch": {
+              "web_url": "https://chrome.google.com/webstore"
+            },
+            "urls": [
+              "https://chrome.google.com/webstore"
+            ]
+          },
+          "description": "Discover great apps, games, extensions and themes for Google Chrome.",
+          "icons": {
+            "128": "webstore_icon_128.png",
+            "16": "webstore_icon_16.png"
+          },
+          "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+          "name": "Web Store",
+          "permissions": [
+            "webstorePrivate",
+            "management",
+            "system.cpu",
+            "system.display",
+            "system.memory",
+            "system.network",
+            "system.storage"
+          ],
+          "version": "0.2"
+        },
+        "needs_sync": true,
+        "page_ordinal": "n",
+        "path": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/144.0.7559.133/Resources/web_store",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "ddkjiahejlhfcafbddmgiahcphecmpfh": {
+        "account_extension_type": 0,
+        "active_bit": false,
+        "active_permissions": {
+          "api": [
+            "activeTab",
+            "storage",
+            "declarativeNetRequest",
+            "scripting"
+          ],
+          "explicit_host": [
+            "<all_urls>"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "allowlist": 1,
+        "commands": {
+          "_execute_action": {
+            "was_assigned": true
+          },
+          "enter-picker-mode": {
+            "suggested_key": "",
+            "was_assigned": true
+          },
+          "enter-zapper-mode": {
+            "suggested_key": "",
+            "was_assigned": true
+          }
+        },
+        "content_settings": [],
+        "creation_flags": 9,
+        "cws-info": {
+          "is-live": true,
+          "is-present": true,
+          "last-updated-time-millis": "1770105600000",
+          "no-privacy-practice": false,
+          "unpublished-long-ago": false,
+          "violation-type": 0
+        },
+        "disable_reasons": [],
+        "dnr_dynamic_ruleset": {
+          "checksum": 1785169311
+        },
+        "dnr_static_ruleset": {
+          "1": {
+            "checksum": 546091397,
+            "ignore_ruleset": false
+          },
+          "2": {
+            "checksum": 894771515,
+            "ignore_ruleset": false
+          },
+          "3": {
+            "checksum": 700807721,
+            "ignore_ruleset": false
+          },
+          "4": {
+            "checksum": 2130578707,
+            "ignore_ruleset": false
+          },
+          "5": {
+            "checksum": 1128271345,
+            "ignore_ruleset": false
+          },
+          "6": {
+            "checksum": 462465860,
+            "ignore_ruleset": false
+          }
+        },
+        "dnr_use_action_count_as_badge_text": true,
+        "first_install_time": "13415041559159526",
+        "from_webstore": true,
+        "granted_permissions": {
+          "api": [
+            "activeTab",
+            "storage",
+            "declarativeNetRequest",
+            "scripting"
+          ],
+          "explicit_host": [
+            "<all_urls>"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13415041559159526",
+        "location": 1,
+        "manifest": {
+          "action": {
+            "default_icon": {
+              "16": "img/icon_16.png",
+              "32": "img/icon_32.png",
+              "64": "img/icon_64.png"
+            },
+            "default_popup": "popup.html"
+          },
+          "author": "Raymond Hill",
+          "background": {
+            "service_worker": "/js/background.js",
+            "type": "module"
+          },
+          "commands": {
+            "enter-picker-mode": {
+              "description": "Create a custom filter"
+            },
+            "enter-zapper-mode": {
+              "description": "Enter element zapper mode"
+            }
+          },
+          "current_locale": "en_GB",
+          "declarative_net_request": {
+            "rule_resources": [
+              {
+                "enabled": true,
+                "id": "ublock-filters",
+                "path": "/rulesets/main/ublock-filters.json"
+              },
+              {
+                "enabled": true,
+                "id": "easylist",
+                "path": "/rulesets/main/easylist.json"
+              },
+              {
+                "enabled": true,
+                "id": "easyprivacy",
+                "path": "/rulesets/main/easyprivacy.json"
+              },
+              {
+                "enabled": true,
+                "id": "pgl",
+                "path": "/rulesets/main/pgl.json"
+              },
+              {
+                "enabled": true,
+                "id": "ublock-badware",
+                "path": "/rulesets/main/ublock-badware.json"
+              },
+              {
+                "enabled": true,
+                "id": "urlhaus-full",
+                "path": "/rulesets/main/urlhaus-full.json"
+              },
+              {
+                "enabled": false,
+                "id": "adguard-mobile",
+                "path": "/rulesets/main/adguard-mobile.json"
+              },
+              {
+                "enabled": false,
+                "id": "block-lan",
+                "path": "/rulesets/main/block-lan.json"
+              },
+              {
+                "enabled": false,
+                "id": "dpollock-0",
+                "path": "/rulesets/main/dpollock-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "adguard-spyware-url",
+                "path": "/rulesets/main/adguard-spyware-url.json"
+              },
+              {
+                "enabled": false,
+                "id": "annoyances-ai",
+                "path": "/rulesets/main/annoyances-ai.json"
+              },
+              {
+                "enabled": false,
+                "id": "annoyances-cookies",
+                "path": "/rulesets/main/annoyances-cookies.json"
+              },
+              {
+                "enabled": false,
+                "id": "annoyances-overlays",
+                "path": "/rulesets/main/annoyances-overlays.json"
+              },
+              {
+                "enabled": false,
+                "id": "annoyances-social",
+                "path": "/rulesets/main/annoyances-social.json"
+              },
+              {
+                "enabled": false,
+                "id": "annoyances-widgets",
+                "path": "/rulesets/main/annoyances-widgets.json"
+              },
+              {
+                "enabled": false,
+                "id": "annoyances-others",
+                "path": "/rulesets/main/annoyances-others.json"
+              },
+              {
+                "enabled": false,
+                "id": "annoyances-notifications",
+                "path": "/rulesets/main/annoyances-notifications.json"
+              },
+              {
+                "enabled": false,
+                "id": "ublock-experimental",
+                "path": "/rulesets/main/ublock-experimental.json"
+              },
+              {
+                "enabled": false,
+                "id": "stevenblack-hosts",
+                "path": "/rulesets/main/stevenblack-hosts.json"
+              },
+              {
+                "enabled": false,
+                "id": "ubol-tests",
+                "path": "/rulesets/main/ubol-tests.json"
+              },
+              {
+                "enabled": false,
+                "id": "alb-0",
+                "path": "/rulesets/main/alb-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "ara-0",
+                "path": "/rulesets/main/ara-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "bgr-0",
+                "path": "/rulesets/main/bgr-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "chn-0",
+                "path": "/rulesets/main/chn-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "cze-0",
+                "path": "/rulesets/main/cze-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "deu-0",
+                "path": "/rulesets/main/deu-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "est-0",
+                "path": "/rulesets/main/est-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "fin-0",
+                "path": "/rulesets/main/fin-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "fra-0",
+                "path": "/rulesets/main/fra-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "grc-0",
+                "path": "/rulesets/main/grc-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "hrv-0",
+                "path": "/rulesets/main/hrv-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "hun-0",
+                "path": "/rulesets/main/hun-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "idn-0",
+                "path": "/rulesets/main/idn-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "ind-0",
+                "path": "/rulesets/main/ind-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "irn-0",
+                "path": "/rulesets/main/irn-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "isl-0",
+                "path": "/rulesets/main/isl-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "isr-0",
+                "path": "/rulesets/main/isr-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "ita-0",
+                "path": "/rulesets/main/ita-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "jpn-1",
+                "path": "/rulesets/main/jpn-1.json"
+              },
+              {
+                "enabled": false,
+                "id": "kor-1",
+                "path": "/rulesets/main/kor-1.json"
+              },
+              {
+                "enabled": false,
+                "id": "ltu-0",
+                "path": "/rulesets/main/ltu-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "lva-0",
+                "path": "/rulesets/main/lva-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "mkd-0",
+                "path": "/rulesets/main/mkd-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "nld-0",
+                "path": "/rulesets/main/nld-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "nor-0",
+                "path": "/rulesets/main/nor-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "pol-0",
+                "path": "/rulesets/main/pol-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "rou-1",
+                "path": "/rulesets/main/rou-1.json"
+              },
+              {
+                "enabled": false,
+                "id": "rus-0",
+                "path": "/rulesets/main/rus-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "rus-1",
+                "path": "/rulesets/main/rus-1.json"
+              },
+              {
+                "enabled": false,
+                "id": "spa-0",
+                "path": "/rulesets/main/spa-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "spa-1",
+                "path": "/rulesets/main/spa-1.json"
+              },
+              {
+                "enabled": false,
+                "id": "svn-0",
+                "path": "/rulesets/main/svn-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "swe-1",
+                "path": "/rulesets/main/swe-1.json"
+              },
+              {
+                "enabled": false,
+                "id": "tha-0",
+                "path": "/rulesets/main/tha-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "tur-0",
+                "path": "/rulesets/main/tur-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "ukr-0",
+                "path": "/rulesets/main/ukr-0.json"
+              },
+              {
+                "enabled": false,
+                "id": "vie-1",
+                "path": "/rulesets/main/vie-1.json"
+              }
+            ]
+          },
+          "default_locale": "en",
+          "description": "An efficient content blocker. Blocks ads, trackers, miners, and more immediately upon installation.",
+          "host_permissions": [
+            "<all_urls>"
+          ],
+          "icons": {
+            "128": "img/icon_128.png",
+            "16": "img/icon_16.png",
+            "32": "img/icon_32.png",
+            "64": "img/icon_64.png"
+          },
+          "incognito": "split",
+          "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJE6DLdtfHXfeaGDSKdUuCvvb3pYEpH7jsuYMdExgIqmKRux2dknlJAnYkamBMcirGBfwCFjqE++TAkCs8AcrYLOGRRMt8oa7DXuFWzgtQpkwigI1+dnIuYLzERLQx/O02/p//fHdDQfxWKvySnN+VHdINOHsUD6OcoC5I7CXIBSrateRpRGpFxxR6F4nWvK3aq2j3L6A/qRg+pr0QVqL8p1TOJG+vSh234YHnsO9Dsys+VNbT0k0n8enCm/VsOCMjihgHpmftd1bSfSr8s1IwBuFdaLVQKghyDn1PvhFNBkuAXu+J/z0/o5Nio+/bIz406ECI9Qtkr9kqVboFDtzwIDAQAB",
+          "manifest_version": 3,
+          "minimum_chrome_version": "122.0",
+          "name": "uBlock Origin Lite",
+          "options_page": "dashboard.html",
+          "permissions": [
+            "activeTab",
+            "declarativeNetRequest",
+            "scripting",
+            "storage"
+          ],
+          "short_name": "uBO Lite",
+          "storage": {
+            "managed_schema": "managed_storage.json"
+          },
+          "update_url": "https://clients2.google.com/service/update2/crx",
+          "version": "2026.201.1924",
+          "web_accessible_resources": [
+            {
+              "matches": [
+                "<all_urls>"
+              ],
+              "resources": [
+                "/strictblock.html"
+              ],
+              "use_dynamic_url": true
+            },
+            {
+              "matches": [
+                "<all_urls>"
+              ],
+              "resources": [
+                "/zapper-ui.html"
+              ],
+              "use_dynamic_url": true
+            },
+            {
+              "matches": [
+                "<all_urls>"
+              ],
+              "resources": [
+                "/picker-ui.html"
+              ],
+              "use_dynamic_url": true
+            },
+            {
+              "matches": [
+                "<all_urls>"
+              ],
+              "resources": [
+                "/unpicker-ui.html"
+              ],
+              "use_dynamic_url": true
+            },
+            {
+              "matches": [
+                "<all_urls>"
+              ],
+              "resources": [
+                "web_accessible_resources/noop.js",
+                "web_accessible_resources/amazon_apstag.js",
+                "web_accessible_resources/google-ima.js",
+                "web_accessible_resources/fingerprint2.js",
+                "web_accessible_resources/adthrive_abd.js",
+                "web_accessible_resources/noop.txt",
+                "web_accessible_resources/1x1.gif",
+                "web_accessible_resources/noop.css",
+                "web_accessible_resources/32x32.png",
+                "web_accessible_resources/2x2.png",
+                "web_accessible_resources/noop.html",
+                "web_accessible_resources/amazon_ads.js",
+                "web_accessible_resources/googletagservices_gpt.js",
+                "web_accessible_resources/google-analytics_analytics.js",
+                "web_accessible_resources/nofab.js",
+                "web_accessible_resources/hd-main.js",
+                "web_accessible_resources/popads.js",
+                "web_accessible_resources/googlesyndication_adsbygoogle.js",
+                "web_accessible_resources/prebid-ads.js",
+                "web_accessible_resources/doubleclick_instream_ad_status.js",
+                "web_accessible_resources/google-analytics_cx_api.js",
+                "web_accessible_resources/scorecardresearch_beacon.js",
+                "web_accessible_resources/google-analytics_ga.js",
+                "web_accessible_resources/outbrain-widget.js",
+                "web_accessible_resources/fingerprint3.js",
+                "web_accessible_resources/noop-vmap1.xml",
+                "web_accessible_resources/empty",
+                "web_accessible_resources/noop-vast3.xml",
+                "web_accessible_resources/noop-0.1s.mp3",
+                "web_accessible_resources/noop-vast2.xml",
+                "web_accessible_resources/noop-1s.mp4",
+                "web_accessible_resources/nobab2.js",
+                "web_accessible_resources/nitropay_ads.js",
+                "web_accessible_resources/chartbeat.js",
+                "web_accessible_resources/noop.json",
+                "web_accessible_resources/noeval-silent.js",
+                "web_accessible_resources/click2load.html"
+              ],
+              "use_dynamic_url": true
+            }
+          ]
+        },
+        "needs_sync": true,
+        "path": "ddkjiahejlhfcafbddmgiahcphecmpfh/2026.201.1924_0",
+        "persistent_script_url_patterns": [
+          "*://*.247sports.com/*",
+          "*://*.abc17news.com/*",
+          "*://*.abema.tv/*",
+          "*://*.adoredbyalex.com/*",
+          "*://*.adrissa.com.co/*",
+          "*://*.agrodigital.com/*",
+          "*://*.al.com/*",
+          "*://*.aliontherunblog.com/*",
+          "*://*.allaboutthetea.com/*",
+          "*://*.allmovie.com/*",
+          "*://*.allmusic.com/*",
+          "*://*.allthingsthrifty.com/*",
+          "*://*.americansoda.co.uk/*",
+          "*://*.amessagewithabottle.com/*",
+          "*://*.androidpolice.com/*",
+          "*://*.antyradio.pl/*",
+          "*://*.artforum.com/*",
+          "*://*.artnews.com/*",
+          "*://*.awkward.com/*",
+          "*://*.awkwardmom.com/*",
+          "*://*.baeldung.com/*",
+          "*://*.bailiwickexpress.com/*",
+          "*://*.barnsleychronicle.com/*",
+          "*://*.becomingpeculiar.com/*",
+          "*://*.bethcakes.com/*",
+          "*://*.blogher.com/*",
+          "*://*.bluegraygal.com/*",
+          "*://*.briefeguru.de/*",
+          "*://*.carmagazine.co.uk/*",
+          "*://*.casteloforte.com.br/*",
+          "*://*.cattime.com/*",
+          "*://*.cbr.com/*",
+          "*://*.cbsnews.com/*",
+          "*://*.cbssports.com/*",
+          "*://*.centerfabril.com.br/*",
+          "*://*.chaptercheats.com/*",
+          "*://*.cheatsheet.com/*",
+          "*://*.cleveland.com/*",
+          "*://*.collider.com/*",
+          "*://*.comingsoon.net/*",
+          "*://*.comix.to/*",
+          "*://*.commercialobserver.com/*",
+          "*://*.competentedigitale.ro/*",
+          "*://*.coomer.st/*",
+          "*://*.crafty.house/*",
+          "*://*.crimsonav.com/*",
+          "*://*.dailyvoice.com/*",
+          "*://*.decider.com/*",
+          "*://*.didyouknowfacts.com/*",
+          "*://*.dogtime.com/*",
+          "*://*.dualshockers.com/*",
+          "*://*.dustyoldthing.com/*",
+          "*://*.energiasolare100.it/*",
+          "*://*.faithhub.net/*",
+          "*://*.fedex.com/*",
+          "*://*.femestella.com/*",
+          "*://*.footwearnews.com/*",
+          "*://*.forqueen.cz/*",
+          "*://*.freeconvert.com/*",
+          "*://*.frogsandsnailsandpuppydogtail.com/*",
+          "*://*.fsm-media.com/*",
+          "*://*.funtasticlife.com/*",
+          "*://*.fwmadebycarli.com/*",
+          "*://*.gamerant.com/*",
+          "*://*.gfinityesports.com/*",
+          "*://*.givemesport.com/*",
+          "*://*.gulflive.com/*",
+          "*://*.helloflo.com/*",
+          "*://*.homeglowdesign.com/*",
+          "*://*.honeygirlsworld.com/*",
+          "*://*.hotcars.com/*",
+          "*://*.howtogeek.com/*",
+          "*://*.indiewire.com/*",
+          "*://*.insider-gaming.com/*",
+          "*://*.insurancejournal.com/*",
+          "*://*.jasminemaria.com/*",
+          "*://*.joinusonline.net/*",
+          "*://*.jollibee.com.vn/*",
+          "*://*.kemono.cr/*",
+          "*://*.kion546.com/*",
+          "*://*.kitapsan.com.tr/*",
+          "*://*.lehighvalleylive.com/*",
+          "*://*.lettyskitchen.com/*",
+          "*://*.lifeinleggings.com/*",
+          "*://*.liveandletsfly.com/*",
+          "*://*.lizzieinlace.com/*",
+          "*://*.localnews8.com/*",
+          "*://*.lonestarlive.com/*",
+          "*://*.lundracing.com/*",
+          "*://*.madeeveryday.com/*",
+          "*://*.madewell.com/*",
+          "*://*.maidenhead-advertiser.co.uk/*",
+          "*://*.makeuseof.com/*",
+          "*://*.mardomreport.net/*",
+          "*://*.masslive.com/*",
+          "*://*.mebelinovdom.com/*",
+          "*://*.melangery.com/*",
+          "*://*.mensjournal.com/*",
+          "*://*.milestomemories.com/*",
+          "*://*.mlive.com/*",
+          "*://*.modernmom.com/*",
+          "*://*.momtastic.com/*",
+          "*://*.mostlymorgan.com/*",
+          "*://*.motherwellmag.com/*",
+          "*://*.movieweb.com/*",
+          "*://*.muddybootsanddiamonds.com/*",
+          "*://*.musicfeeds.com.au/*",
+          "*://*.nationalreview.com/*",
+          "*://*.ngsingleissues.nationalgeographic.com/*",
+          "*://*.nj.com/*",
+          "*://*.nordot.app/*",
+          "*://*.nothingbutnewcastle.com/*",
+          "*://*.nsjonline.com/*",
+          "*://*.nypost.com/*",
+          "*://*.oakvillenews.org/*",
+          "*://*.observer.com/*",
+          "*://*.ojworld.it/*",
+          "*://*.oregonlive.com/*",
+          "*://*.pagesix.com/*",
+          "*://*.pennlive.com/*",
+          "*://*.phileweb.com/*",
+          "*://*.pinkonthecheek.com/*",
+          "*://*.predic.ro/*",
+          "*://*.puckermom.com/*",
+          "*://*.pwinsider.com/*",
+          "*://*.qtoptens.com/*",
+          "*://*.qualityrental.com/*",
+          "*://*.rapidkil.com.au/*",
+          "*://*.realgm.com/*",
+          "*://*.red17.co.uk/*",
+          "*://*.robbreport.com/*",
+          "*://*.royalmailchat.co.uk/*",
+          "*://*.samchui.com/*",
+          "*://*.sandrarose.com/*",
+          "*://*.screenrant.com/*",
+          "*://*.sheknows.com/*",
+          "*://*.sherdog.com/*",
+          "*://*.sidereel.com/*",
+          "*://*.silive.com/*",
+          "*://*.simpleflying.com/*",
+          "*://*.sloughexpress.co.uk/*",
+          "*://*.spacenews.com/*",
+          "*://*.sport.elwatannews.com/*",
+          "*://*.sportsgamblingpodcast.com/*",
+          "*://*.spotofteadesigns.com/*",
+          "*://*.ssnewstelegram.com/*",
+          "*://*.stacysrandomthoughts.com/*",
+          "*://*.superherohype.com/*",
+          "*://*.syracuse.com/*",
+          "*://*.szaszmotorshop.hu/*",
+          "*://*.tablelifeblog.com/*",
+          "*://*.thebeautysection.com/*",
+          "*://*.thecelticblog.com/*",
+          "*://*.thecurvyfashionista.com/*",
+          "*://*.thefashionspot.com/*",
+          "*://*.thegamer.com/*",
+          "*://*.thenerdyme.com/*",
+          "*://*.thenonconsumeradvocate.com/*",
+          "*://*.theprudentgarden.com/*",
+          "*://*.thethings.com/*",
+          "*://*.timesnews.net/*",
+          "*://*.topspeed.com/*",
+          "*://*.toyotaklub.org.pl/*",
+          "*://*.travelingformiles.com/*",
+          "*://*.tutsnode.org/*",
+          "*://*.tvline.com/*",
+          "*://*.tvojstyl.sk/*",
+          "*://*.up-shop.org/*",
+          "*://*.usaa.com/*",
+          "*://*.visible.com/*",
+          "*://*.weightlossdiet.top/*",
+          "*://*.workplace-products.co.uk/*",
+          "*://*.www.cambe.pr.gov.br/*",
+          "*://*.yairalon.com.br/*",
+          "*://*.z13.web.core.windows.net/*",
+          "<all_urls>"
+        ],
+        "preferences": {},
+        "regular_only_preferences": {},
+        "service_worker_registration_info": {
+          "version": "2026.201.1924"
+        },
+        "serviceworkerevents": [
+          "commands.onCommand",
+          "permissions.onAdded",
+          "permissions.onRemoved"
+        ],
+        "storage_session_access_level": 2,
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false,
+        "withholding_permissions": false
+      },
+      "edibdbjcniadpccecjdfdjjppcpchdlm": {
+        "account_extension_type": 0,
+        "active_bit": false,
+        "active_permissions": {
+          "api": [
+            "notifications",
+            "storage",
+            "tabs",
+            "webNavigation",
+            "webRequest",
+            "scripting",
+            "declarativeNetRequestWithHostAccess"
+          ],
+          "explicit_host": [
+            "http://*/*",
+            "https://*/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "allowlist": 1,
+        "commands": {
+          "_execute_action": {
+            "was_assigned": true
+          }
+        },
+        "content_settings": [],
+        "creation_flags": 9,
+        "cws-info": {
+          "is-live": true,
+          "is-present": true,
+          "last-updated-time-millis": "1765180800000",
+          "no-privacy-practice": false,
+          "unpublished-long-ago": false,
+          "violation-type": 0
+        },
+        "disable_reasons": [],
+        "dnr_static_ruleset": {
+          "1": {
+            "checksum": 1844330657,
+            "ignore_ruleset": false
+          }
+        },
+        "filtered_service_worker_events": {
+          "webNavigation.onCommitted": [
+            {}
+          ],
+          "webNavigation.onCompleted": [
+            {}
+          ]
+        },
+        "first_install_time": "13415041547031904",
+        "from_webstore": true,
+        "granted_permissions": {
+          "api": [
+            "notifications",
+            "storage",
+            "tabs",
+            "webNavigation",
+            "webRequest",
+            "scripting",
+            "declarativeNetRequestWithHostAccess"
+          ],
+          "explicit_host": [
+            "http://*/*",
+            "https://*/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13415041547031904",
+        "location": 1,
+        "manifest": {
+          "action": {
+            "default_icon": {
+              "16": "icons/16.png",
+              "32": "icons/32.png"
+            },
+            "default_popup": "data/menu/index.html"
+          },
+          "author": "OhMyGuus and Community (originally Daniel Kladnik)",
+          "background": {
+            "service_worker": "data/background.js",
+            "type": "module"
+          },
+          "current_locale": "en_GB",
+          "declarative_net_request": {
+            "rule_resources": [
+              {
+                "enabled": true,
+                "id": "ruleset_1",
+                "path": "rules.json"
+              }
+            ]
+          },
+          "default_locale": "en",
+          "description": "Community version of the extension `I don't care about cookies` (no Avast)",
+          "host_permissions": [
+            "http://*/*",
+            "https://*/*"
+          ],
+          "icons": {
+            "128": "icons/128.png",
+            "16": "icons/16.png",
+            "48": "icons/48.png"
+          },
+          "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqripwk4IcwQ3gnV6tGSbsk2sA8FoCrjN5l4nSjr3Z+77QIVUScMopQ+8kS5QsMHgki+g+jwECROri93mj3oy6oJTtypkd+FtIY+EVEnE85pVdfPzYVcNOu7mMl62VxWfdVFFcRmxvPf5orefKWPY9ztx7qIBioxvcZAXML7c3YGaBI7XGfLdsTVJgLEt07Z0t8mDHmsMcA7pKRMYjJFnQkp9gOWl9QcY3H6TGBSeN3BhwT04iumScKkOa8biWihZIo8dL2h6YBqfRf+gUMBeLyglrANhRJ+x3w+FB3wimu/4iHmAI1xrtU0fWM3AHXZtgX5KBjvAOmImyXTIdypCCQIDAQAB",
+          "manifest_version": 3,
+          "name": "I still don't care about cookies",
+          "options_ui": {
+            "page": "data/options.html"
+          },
+          "permissions": [
+            "tabs",
+            "storage",
+            "notifications",
+            "webRequest",
+            "declarativeNetRequestWithHostAccess",
+            "webNavigation",
+            "scripting"
+          ],
+          "update_url": "https://clients2.google.com/service/update2/crx",
+          "version": "1.1.9"
+        },
+        "needs_sync": true,
+        "path": "edibdbjcniadpccecjdfdjjppcpchdlm/1.1.9_0",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "service_worker_registration_info": {
+          "version": "1.1.9"
+        },
+        "serviceworkerevents": [
+          "runtime.onInstalled",
+          "tabs.onCreated",
+          "tabs.onRemoved",
+          "tabs.onUpdated"
+        ],
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false,
+        "withholding_permissions": false
+      },
+      "fignfifoniblkonapihmkfakmlgkbkcf": {
+        "account_extension_type": 0,
+        "active_permissions": {
+          "api": [
+            "metricsPrivate",
+            "systemPrivate",
+            "ttsEngine",
+            "offscreen"
+          ],
+          "explicit_host": [
+            "https://www.google.com/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 1,
+        "disable_reasons": [],
+        "first_install_time": "13415025859972186",
+        "from_webstore": false,
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13415025859972186",
+        "location": 5,
+        "manifest": {
+          "background": {
+            "service_worker": "service_worker.js"
+          },
+          "description": "Component extension providing speech via the Google network text-to-speech service.",
+          "host_permissions": [
+            "https://www.google.com/"
+          ],
+          "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5mnqF6oM8Q5tYd7YqL40YL7Keftt4PwydehlNOyNlCiWDM/7SiQYwxYvVHMj1i03z7B5lZXQinrcqhHhoIgcSHK1JrdzVSJxPRVdmV0rJLv0KQgmVwL8p8MfN6SmHs+72xz+1GoRWpd0WlHMil7RzGKJA4Ku+9jxxsXoxes9eeV1hCavkb1dSF+mlQbaNiw7u1hhvc5mmeuEcWjoce8r8B2R4wmnGbuTLfoSchZ6jkasynmOaFxyT4jiYDYgrNtWRTQ/9PuPduJ+uBWVT/o2ZhDK2XcywVwzUfYIXDLDblK+YdZi8w8ZBNvc7hP9/iZr6/eoUpfsLa8qlJgyLBQebwIDAQAB",
+          "manifest_version": 3,
+          "name": "Google Network Speech",
+          "permissions": [
+            "metricsPrivate",
+            "offscreen",
+            "systemPrivate",
+            "ttsEngine"
+          ],
+          "tts_engine": {
+            "voices": [
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "de-DE",
+                "remote": true,
+                "voice_name": "Google Deutsch"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "en-US",
+                "remote": true,
+                "voice_name": "Google US English"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "en-GB",
+                "remote": true,
+                "voice_name": "Google UK English Female"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "male",
+                "lang": "en-GB",
+                "remote": true,
+                "voice_name": "Google UK English Male"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "es-ES",
+                "remote": true,
+                "voice_name": "Google espa\u00f1ol"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "es-US",
+                "remote": true,
+                "voice_name": "Google espa\u00f1ol de Estados Unidos"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "fr-FR",
+                "remote": true,
+                "voice_name": "Google fran\u00e7ais"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "hi-IN",
+                "remote": true,
+                "voice_name": "Google \u0939\u093f\u0928\u094d\u0926\u0940"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "id-ID",
+                "remote": true,
+                "voice_name": "Google Bahasa Indonesia"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "it-IT",
+                "remote": true,
+                "voice_name": "Google italiano"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "ja-JP",
+                "remote": true,
+                "voice_name": "Google \u65e5\u672c\u8a9e"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "ko-KR",
+                "remote": true,
+                "voice_name": "Google \ud55c\uad6d\uc758"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "nl-NL",
+                "remote": true,
+                "voice_name": "Google Nederlands"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "pl-PL",
+                "remote": true,
+                "voice_name": "Google polski"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "pt-BR",
+                "remote": true,
+                "voice_name": "Google portugu\u00eas do Brasil"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "ru-RU",
+                "remote": true,
+                "voice_name": "Google \u0440\u0443\u0441\u0441\u043a\u0438\u0439"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "zh-CN",
+                "remote": true,
+                "voice_name": "Google\u00a0\u666e\u901a\u8bdd\uff08\u4e2d\u56fd\u5927\u9646\uff09"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "zh-HK",
+                "remote": true,
+                "voice_name": "Google\u00a0\u7ca4\u8a9e\uff08\u9999\u6e2f\uff09"
+              },
+              {
+                "event_types": [
+                  "start",
+                  "end",
+                  "error"
+                ],
+                "gender": "female",
+                "lang": "zh-TW",
+                "remote": true,
+                "voice_name": "Google \u570b\u8a9e\uff08\u81fa\u7063\uff09"
+              }
+            ]
+          },
+          "version": "1.0"
+        },
+        "path": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/144.0.7559.133/Resources/network_speech_synthesis/mv3",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "service_worker_registration_info": {
+          "version": "1.0"
+        },
+        "serviceworkerevents": [
+          "ttsEngine.onPause",
+          "ttsEngine.onResume",
+          "ttsEngine.onSpeak",
+          "ttsEngine.onStop"
+        ],
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "mhjfbmdgcfjbbpaeojofohoefgiehjai": {
+        "account_extension_type": 0,
+        "active_permissions": {
+          "api": [
+            "contentSettings",
+            "fileSystem",
+            "fileSystem.write",
+            "metricsPrivate",
+            "tabs",
+            "resourcesPrivate",
+            "pdfViewerPrivate"
+          ],
+          "explicit_host": [
+            "chrome://resources/*",
+            "chrome://webui-test/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 1,
+        "disable_reasons": [],
+        "events": [],
+        "first_install_time": "13415025859962599",
+        "from_webstore": false,
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13415025859962599",
+        "location": 5,
+        "manifest": {
+          "content_security_policy": "script-src 'self' blob: filesystem: chrome://resources chrome://webui-test; object-src * blob: externalfile: file: filesystem: data:",
+          "description": "",
+          "incognito": "split",
+          "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN6hM0rsDYGbzQPQfOygqlRtQgKUXMfnSjhIBL7LnReAVBEd7ZmKtyN2qmSasMl4HZpMhVe2rPWVVwBDl6iyNE/Kok6E6v6V3vCLGsOpQAuuNVye/3QxzIldzG/jQAdWZiyXReRVapOhZtLjGfywCvlWq7Sl/e3sbc0vWybSDI2QIDAQAB",
+          "manifest_version": 2,
+          "mime_types": [
+            "application/pdf"
+          ],
+          "mime_types_handler": "index.html",
+          "name": "Chrome PDF Viewer",
+          "offline_enabled": true,
+          "permissions": [
+            "chrome://resources/",
+            "chrome://webui-test/",
+            "contentSettings",
+            "metricsPrivate",
+            "pdfViewerPrivate",
+            "resourcesPrivate",
+            "tabs",
+            {
+              "fileSystem": [
+                "write"
+              ]
+            }
+          ],
+          "version": "1",
+          "web_accessible_resources": [
+            "pdf_embedder.css"
+          ]
+        },
+        "path": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/144.0.7559.133/Resources/pdf",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      },
+      "nkeimhogjdpnpccoofpliimaahmaaome": {
+        "account_extension_type": 0,
+        "active_permissions": {
+          "api": [
+            "processes",
+            "webrtcLoggingPrivate",
+            "system.cpu",
+            "enterprise.hardwarePlatform"
+          ],
+          "explicit_host": [],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 1,
+        "disable_reasons": [],
+        "events": [],
+        "first_install_time": "13415025859968257",
+        "from_webstore": false,
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13415025859968257",
+        "location": 5,
+        "manifest": {
+          "background": {
+            "page": "background.html",
+            "persistent": false
+          },
+          "externally_connectable": {
+            "ids": [
+              "moklfjoegmpoolceggbebbmgbddlhdgp",
+              "ldmpofkllgeicjiihkimgeccbhghhmfj",
+              "denipklgekfpcdmbahmbpnmokgajnhma",
+              "kjfhgcncjdebkoofmbjoiemiboifnpbo",
+              "ikfcpmgefdpheiiomgmhlmmkihchmdlj",
+              "jlgegmdnodfhciolbdjciihnlaljdbjo",
+              "lkbhffjfgpmpeppncnimiiikojibkhnm",
+              "acdafoiapclbpdkhnighhilgampkglpc",
+              "hkamnlhnogggfddmjomgbdokdkgfelgg"
+            ],
+            "matches": [
+              "https://*.meet.google.com/*"
+            ]
+          },
+          "incognito": "split",
+          "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAQt2ZDdPfoSe/JI6ID5bgLHRCnCu9T36aYczmhw/tnv6QZB2I6WnOCMZXJZlRdqWc7w9jo4BWhYS50Vb4weMfh/I0On7VcRwJUgfAxW2cHB+EkmtI1v4v/OU24OqIa1Nmv9uRVeX0GjhQukdLNhAE6ACWooaf5kqKlCeK+1GOkQIDAQAB",
+          "manifest_version": 2,
+          "name": "Google Hangouts",
+          "permissions": [
+            "enterprise.hardwarePlatform",
+            "processes",
+            "system.cpu",
+            "webrtcLoggingPrivate"
+          ],
+          "version": "1.3.26"
+        },
+        "path": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/144.0.7559.133/Resources/hangout_services",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "was_installed_by_default": false,
+        "was_installed_by_oem": false
+      }
+    }
+  },
+  "protection": {
+    "macs": {
+      "account_values": {
+        "browser": {
+          "show_home_button": "BF9747F0CDFE26EE42595EC5D29309BF58A24B27B9974047A83ACB48A3DBFCCE",
+          "show_home_button_encrypted_hash": "djEw+aAKqQ8Get+Wh2My+8F/X3AB1y6q7BIP1Ag62iqXjS1HkNjXacalST3BGo+u0cgw"
+        },
+        "extensions": {
+          "ui": {
+            "developer_mode": "DB7F283492D21EB58EFB146F4D2E295247EC29B978AA6A62D2AD8FCB303308AD",
+            "developer_mode_encrypted_hash": "djEwGvQ7oLduErf5T2Im7s2SYS9XUPIcj9z7xk2EVndbT4FMcqMu8uB0SvIkeL/I5M1e"
+          }
+        },
+        "homepage": "44BBD70689358EDEF67AB9FABF9B1DE41DB19BDD2673E5B35C763C4808D3E674",
+        "homepage_encrypted_hash": "djEwGnu0v1gmbmyAv7cVJLknqUimEG4arl67lbBYv5cbsJ3xd1Dtixv0g2jsfQSDSoD9",
+        "homepage_is_newtabpage": "4C6AC6A20F1D8CCBCAE6D2B59C0584FC2EC43BB28BF8E0304DC1198BC3935944",
+        "homepage_is_newtabpage_encrypted_hash": "djEwEovTWA7ucDtdEK6JfCa/aOdhAMQsVuIKfkGTdtm0JIKQu4f5v/6wXmEee2ueOCvi",
+        "session": {
+          "restore_on_startup": "4584A8289200A36D24D12C12D60131C1EC7001E361B621538E702422D9B9FFD9",
+          "restore_on_startup_encrypted_hash": "djEw9FZyjVFNDm1q1foCoqeoiNypeTnDPYZF5EaNVr6XqXkRo0rMzKucFywBCYXGS1JT",
+          "startup_urls": "7E0F70A6EB045697EB4009F0832C071B380AECCED489F160936890605D5FFC9C",
+          "startup_urls_encrypted_hash": "djEw/23M2ROM5D7dZf0CkazavICLvxriz7PYDHtrW2Bu+j+2psim+1oH8QsmpjkcW4No"
+        }
+      },
+      "browser": {
+        "show_home_button": "16B63703F4D71BA44050662558E1B794353C60E4E5AA2BEBC1D8E9BA8B665379",
+        "show_home_button_encrypted_hash": "djEwg2L6MJInrW7ZFyeNx9/nywrCaDcAh2/xtR5P8JUK8KFf6ygvQLf/VdIAIOYS0mbi"
+      },
+      "default_search_provider_data": {
+        "template_url_data": "AAF9FD2AC3BA7B91C7A8D948E146EAC7ACEF6A1D1D14B43A4DFCDC8C68A5E90E",
+        "template_url_data_encrypted_hash": "djEwhXEce5YFpumsKex8X66Q9k0TPtdKOa5l+Rny016Cf+u5Vxbte4hOt7pN20gwOGwE"
+      },
+      "enterprise_signin": {
+        "policy_recovery_token": "4DD61E640AA1E4AC7BDE42B8516B0C5496828F525E2CA75D0EC237F8B2367BE8",
+        "policy_recovery_token_encrypted_hash": "djEwWn2AEqQhW0wX0+mT6oC3VQnIWcsAij+jd2t9CU1PKfTa1hwRM9oYZpevroQPVTta"
+      },
+      "extensions": {
+        "install": {
+          "initiallist": "34113E9025D806688251B1AF42585B9EC96D63AF36B66F6BEBB9EC0A5FB2A5BF",
+          "initiallist_encrypted_hash": "djEwDSKM04lMiMvZWAevUJ6J/2+31LkDyQEAUYF3y0giFLp+853zfPDSHbV3Ofe0RY3H",
+          "initialprovidername": "4610192522AA6124DAAC65FBFC02E90E78BFD1730C9D2A534EAD1B021CF778CE",
+          "initialprovidername_encrypted_hash": "djEwl2xz6tZT6YNZyAsjHDqP5qY+puJ9pHOL4GDeERaEQNZJGc+RTa7ywL/vhaPh0BsT"
+        },
+        "settings": {
+          "ahfgeienlihckogmohjhadlkjgocpleb": "630CED84BFCFF76EF65AD874AF64BEF18503422C429C51DAEFF7D83C016C553A",
+          "ddkjiahejlhfcafbddmgiahcphecmpfh": "7A81EEF5922952E7CCBBA97B970CE55AE6872B94C338CF940AC7A34C55B07170",
+          "edibdbjcniadpccecjdfdjjppcpchdlm": "70F4C8C340609DBAA007D32FE5B3ED736CBDA5C141015FD0BC4336557EF570F6",
+          "fignfifoniblkonapihmkfakmlgkbkcf": "D76AE4B62E4406159E0ED89DC36BA8D06DFDFFCF3F1699A1EA8B0D43DB657F69",
+          "mhjfbmdgcfjbbpaeojofohoefgiehjai": "571AC4B5A511E09A1D21BC8A08725596E419B50E39332756EB6FCF5EC79AE0DE",
+          "nkeimhogjdpnpccoofpliimaahmaaome": "4817E640AA3AEFE7A78B4BAFBD1CB961B33C31AA481046197534A5A92E26980D"
+        },
+        "settings_encrypted_hash": {
+          "ahfgeienlihckogmohjhadlkjgocpleb": "djEwjiJRp2y9FJ9UNB7xIQ9R8H6VOh4JHKdYf8L5c3dnmhjsLbNBwYHblvK62ObdV91+",
+          "ddkjiahejlhfcafbddmgiahcphecmpfh": "djEwgYIfudChvVZSc4rkLOIOHQixx4HfhALHhnPuee3FprBA5YANRjIPl489Tv2bSWLJ",
+          "edibdbjcniadpccecjdfdjjppcpchdlm": "djEwf8sz3bc6XfMQFknQwn5T2fiMpVENul4a1WOHNxaWbzAkr5Py4cwWPslTXCWLOHVU",
+          "fignfifoniblkonapihmkfakmlgkbkcf": "djEw3OBriXf2g4PFlL+Dc9fgh8XFsg7ABbwfBBED32dbcYe7KVCNedP8+iaj0B96ydMZ",
+          "mhjfbmdgcfjbbpaeojofohoefgiehjai": "djEwWsxeVEAcjdsGz661+i/jlzPmfTri/taN3+j1H2hbIYOQwgjCQrqpKdsDWDbbXRPT",
+          "nkeimhogjdpnpccoofpliimaahmaaome": "djEw5SlOZrKl4vJ1ouqDHH6+aobGQONAAc4qLKd25hZnbzt4skAJTUxPB4MikZFBFu9n"
+        },
+        "ui": {
+          "developer_mode": "51111306E5848F5BFA9DF4DBAD160E51B126B9E786607FF3122EEB1C11ACE8E1",
+          "developer_mode_encrypted_hash": "djEwpA0jEjafcmzoTo+2orkeFQKjhMsJGPYdAxwHIQpF3ors25QE+HkGJ23TAgjtIMBX"
+        }
+      },
+      "google": {
+        "services": {
+          "account_id": "260A27DB209706B5457D6AB1717687828CA06471896914E1ECAEBB866E4B1DEC",
+          "account_id_encrypted_hash": "djEwjdThOBgnUCzQmbkmVIO1SkD5VyM3MQcV47GB2aqCkzNufd0hgCgqqcagSgmHSl6P",
+          "last_signed_in_username": "31E85113D466D353145FD94CB277EEB9099D33000D39D7515AEA183EEC680CC6",
+          "last_signed_in_username_encrypted_hash": "djEw9R8ld39bjKJHosHb2eP920IhRMlgQ52QV6CL6ZSVrYki/wAlO7G25iVEGv4TbTYn",
+          "last_username": "5ED995DB6DC59981907EA393D8E6FBEBA8C25715D370ECE66C1FECDE61FD8E3B",
+          "last_username_encrypted_hash": "djEwWsv5Ubv8mmkG6QZZbz7Pbos4ySfimJbS91J5kzb/Iu7+IRFzPB4mn+9BjoctTdma"
+        }
+      },
+      "homepage": "77DD51788E1615A4AC0947F3296B4A06149C39BA19460F6CA77544DFBA4501B7",
+      "homepage_encrypted_hash": "djEwgTyYif+FrdtgIjTuJSZk3tOSgv039PFcCkrk+tyOWgdXwLkYxfiMmNyixGwfjZQv",
+      "homepage_is_newtabpage": "CAA37F7C848EA31A781C88D7AAEC895AC09E9BED5997327496F401667E125D15",
+      "homepage_is_newtabpage_encrypted_hash": "djEw5+v3DUKTGFbZKSkb9pd8PcG+DRDBQwmt2WmwIM0MOwOW2VWgJm+Aas79haJRL/OB",
+      "media": {
+        "storage_id_salt": "70FDE7BC2644FAEF6394BA73DD9B4762F6612068366FFFAEDBC5309199E51A50",
+        "storage_id_salt_encrypted_hash": "djEwKlpkKpZa5wawtDICLJi0QzlP0IGXQohc2fkvvFCjW888blY/s17kdOg9lb9dJyi2"
+      },
+      "pinned_tabs": "BDFD3D5F448D3665A4E18B960EA2FC88738C003DFCE963B8624DE20547E8E389",
+      "pinned_tabs_encrypted_hash": "djEwEgLYkmFAX9HkzSwKK02my9YH/IjQEMQ94bIiN9PkWYHMjgDkR9VX1SzmjW2Hi48R",
+      "prefs": {
+        "preference_reset_time": "100EA642535464ACDE2F6DF5AD945579A8377613FB16DC5435EC21896E2C23C9",
+        "preference_reset_time_encrypted_hash": "djEwJttLrxSsSE0GsTsn8Lke5vi3tsoA8RZ5MIdXmBin7gYZlw8BAjEh/nXN0HjybB5x"
+      },
+      "safebrowsing": {
+        "incidents_sent": "58A7D5B21E544857206AC6FB3251BE78EAED557265502FDFB191AFDEE47B7F2F",
+        "incidents_sent_encrypted_hash": "djEwg8Hw4lyKoLr7rMqIzsiWhXWkUoLKXpG818Tja10+49ujp6ya5OTC56OdA1MAIiS2"
+      },
+      "schedule_to_flush_to_disk": "C9EA12BA2B28330CF12B6F62F1307BB363AB3CB23E09B2297184B9BC51F9534C",
+      "schedule_to_flush_to_disk_encrypted_hash": "djEwBatA3mwmb03EZy67jQLxRWjoXgWxHEqYdpChB8CFAZSgwd6sKoMMp7vBOlYzO45e",
+      "search_provider_overrides": "A10E2B548BB022FF143BAFB1A8369BFE4A66C8A353A65CAFB9D059238A899AF6",
+      "search_provider_overrides_encrypted_hash": "djEwsJhPS2j5mB6wr7jpsDHJQx8KTcHZhkuEF0E+1KK2cdPoA60oiaPnOdG/IgqLr/9E",
+      "session": {
+        "restore_on_startup": "48EAF1403A2F1F0C65D54F0AD9F2CE269869ADC60FFA77D65794CB618399C372",
+        "restore_on_startup_encrypted_hash": "djEwJ2f88fHdwuYR3WkWCa0QKp5Vu9ko6nfu/tV3R2J132yq/zvrCJM/qaZbIgpXoRaJ",
+        "startup_urls": "22A3ED9588E258DBBA29FC75B008699F32F91195992696233326E75E02F5EB7C",
+        "startup_urls_encrypted_hash": "djEwVyQD2nj/RHRngVqYeOt/HOTZlOcaIa4jwQARZg2irmuaG9BghVpokqICdfyjlUVS"
+      }
+    },
+    "super_mac": "95D1D8B0FEDF2C716E9B4182B00B31AECDE0519A9975BEE404FC8BBFD0233EC6"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "profile": {
+    "profiles_created": 1,
+    "info_cache": {}
+  },
+  "browser": {
+    "enabled_labs_experiments": []
+  },
+  "fre": {
+    "has_user_acknowledged": true
+  }
+}
