@@ -1,15 +1,13 @@
 {
   "name": "animator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Frame-by-frame animation recorder using Playwright + ffmpeg",
+  "license": "MIT",
   "type": "commonjs",
+  "scripts": {
+    "doctor": "node scripts/doctor.js",
+    "record": "node scripts/record.js"
+  },
   "dependencies": {
     "playwright": "^1.58.2"
   }
