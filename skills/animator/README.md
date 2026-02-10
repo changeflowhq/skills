@@ -2,6 +2,8 @@
 
 Create short mp4 videos from HTML/CSS/JS animations. Frame-by-frame capture using Playwright + ffmpeg. Deterministic, smooth, pixel-perfect 30fps output.
 
+<video src="demo.mp4" autoplay loop muted playsinline></video>
+
 Write CSS animations normally - the recorder pauses all animations and steps `currentTime` per frame. Easing, delays, fill-mode all work. JS-driven animation is also supported via a `renderFrame()` callback.
 
 ## Quick Start
