@@ -114,3 +114,11 @@ Read [LEARNED.md](LEARNED.md) before using this skill. It contains hard-won less
 - Index issues (stale embeddings, missing files, broken binary)
 - Installation or automation gotchas
 - CLAUDE.md patterns that worked or failed for enforcing context-first behavior
+
+**Consolidation (keep LEARNED.md under 50 lines):**
+Before adding a new entry, check the file length. If it's over 50 lines:
+1. Merge duplicate/overlapping entries into single proven patterns
+2. Remove entries older than 3 months that haven't been reinforced
+3. Drop one-off observations that never recurred
+4. Move detailed historical context to `LEARNED-archive.md` if worth preserving
+5. Keep only entries that would change behavior - if it's obvious, cut it

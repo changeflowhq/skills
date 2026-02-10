@@ -1,10 +1,11 @@
 # qmd - Learned
 
+<!-- Keep under 50 lines. Consolidate before adding: merge duplicates, cut stale entries, archive if needed. -->
+
 ## Installation
 
-- qmd binary lives at `~/.bun/bin/qmd`. Never install to `/private/tmp/` - macOS cleans it periodically and breaks the symlink.
-- If `/usr/local/bin/qmd` breaks, fix with: `ln -sf ~/.bun/bin/qmd /usr/local/bin/qmd`
-- Bun must be in PATH for all automation (hooks, launchd, watch). Always prefix with `export PATH="$HOME/.bun/bin:$PATH"`.
+- (2026-02-10) Binary lives at `~/.bun/bin/qmd`. Never install to `/private/tmp/` - macOS cleans it and breaks symlinks. Fix with: `ln -sf ~/.bun/bin/qmd /usr/local/bin/qmd`
+- (2026-02-10) Bun must be in PATH for all automation (hooks, launchd, watch). Always prefix with `export PATH="$HOME/.bun/bin:$PATH"`.
 
 ## Search Patterns
 
@@ -12,5 +13,5 @@
 
 ## CLAUDE.md Integration
 
-- The "you have failed" language in CLAUDE.md is necessary. Softer phrasing like "please search first" gets ignored.
-- Forbidding Grep/Glob/Explore forces all discovery through qmd, which gives ranked results instead of raw matches.
+- (2026-02-10) The "you have failed" language is necessary. Softer phrasing gets ignored.
+- (2026-02-10) Forbidding Grep/Glob/Explore forces all discovery through qmd, giving ranked results instead of raw matches.
