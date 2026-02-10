@@ -103,3 +103,14 @@ For the complete command reference, see [references/commands.md](references/comm
 - Only use `vsearch` when keywords don't match concepts
 - After changes, always run `--files` query to catch ripple effects
 - Combine with Read tool: qmd finds files, Read gets full content
+
+## Self-Learning
+
+Read [LEARNED.md](LEARNED.md) before using this skill. It contains hard-won lessons about what works and what doesn't.
+
+**Update LEARNED.md when you discover:**
+- A query that returned bad results and what worked instead
+- Search mode choice that was wrong (e.g. `search` missed something `vsearch` found)
+- Index issues (stale embeddings, missing files, broken binary)
+- Installation or automation gotchas
+- CLAUDE.md patterns that worked or failed for enforcing context-first behavior
