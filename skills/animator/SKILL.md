@@ -12,6 +12,10 @@ metadata:
 
 Create short mp4 videos from HTML/CSS/JS animations. Frame-by-frame capture using Playwright + ffmpeg. Deterministic, smooth, pixel-perfect 30fps output.
 
+## Demo
+
+<video src="demo.mp4" autoplay loop muted playsinline></video>
+
 ## Memory
 
 Read `~/.claude/skills/animator/LEARNED.md` at the start of every task. If it doesn't exist, create it with a `# Learned` header.
