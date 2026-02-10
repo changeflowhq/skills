@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+  qmd Embedding Refresh
+  Runs daily at midnight to update text index and regenerate embeddings.
+  If Mac is asleep at midnight, runs when Mac wakes up.
+
+  Install:
+    cp this-file ~/Library/LaunchAgents/com.qmd-embed.plist
+    launchctl load ~/Library/LaunchAgents/com.qmd-embed.plist
+
+  Verify:
+    launchctl list | grep qmd
+    launchctl start com.qmd-embed
+    cat /tmp/qmd-embed.log
+-->
+<dict>
+    <key>Label</key>
+    <string>com.qmd-embed</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-c</string>
+        <string>export PATH="$HOME/.bun/bin:$PATH" &amp;&amp; qmd update &amp;&amp; qmd embed</string>
+    </array>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+        <key>HOME</key>
+        <!-- Update this if your home directory differs -->
+        <string>/Users/YOURUSERNAME</string>
+    </dict>
+
+    <!-- Run daily at midnight -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>0</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/qmd-embed.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/qmd-embed.log</string>
+</dict>
+</plist>
